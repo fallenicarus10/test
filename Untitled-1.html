@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      .gallerypic {
+        width: 500px;
+        text-decoration: none;
+        position: relative;
+        display: block;
+        border: 1px solid #666;
+        padding: 3px;
+        margin-right: 5px;
+        float: left;
+      }
+      .gallerypic span.zoom-icon {
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        opacity: 0.6;
+      }
+       {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <audio src="song/s1.wav" autoplay>
+      Your browser does not support the audio element.
+      </audio>
+      
+    <a href="#" class="gallerypic">
+      <img src="img/bg2.gif" alt="Gallery Photo" class="pic" />
+      <span class="zoom-icon">
+        <img src="img/border.png" width="cover" height="cover">
+      </span>
+    </a>
+  </body>
+</html>
